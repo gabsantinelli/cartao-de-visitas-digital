@@ -64,3 +64,28 @@ body {
     color: #777777;
     font-size: 14px;
 }
+
+/* =================================== */
+/* DESIGN RESPONSIVO          */
+/* =================================== */
+
+@media (max-width: 600px) {
+  
+  .profile-picture {
+    width: 120px;
+    height: 120px;
+  }
+
+  .profile-name {
+    font-size: 24px; /* Reduz o tamanho da fonte do seu nome */
+  }
+
+  .links-list a {
+    padding: 12px; /* Diminui a altura dos botões */
+  }
+
+  .profile-description {
+    font-size: 14px; /* Reduz o tamanho da fonte da descrição */
+  }
+
+}
