@@ -23,3 +23,28 @@ body {
 .profile-name {
     margin-top: 20px;
 }
+.links-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.links-list li {
+    margin-bottom: 15px;
+}
+
+.links-list a {
+    display: block;
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 15px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+.links-list a:hover {
+    transform: scale(1.05);
+    background-color: #444444;
+}
