@@ -1,7 +1,7 @@
 body {
     background-color: #121212;
     color: #FFFFFF;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,6 +22,7 @@ body {
 
 .profile-name {
     margin-top: 20px;
+    font-weight: 700; /* Linha incluída */
 }
 .links-list {
     list-style: none;
@@ -47,4 +48,19 @@ body {
 .links-list a:hover {
     transform: scale(1.05);
     background-color: #444444;
+}
+
+.profile-description {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-style: italic;
+    color: #c0c0c0;
+    font-weight: 400; /* Peso 400 = Regular */
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    color: #777777;
+    font-size: 14px;
 }
