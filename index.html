@@ -5,36 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Cartão de Visitas</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="container">
+        <div class="content-wrapper">
+            <img class="profile-picture" src="assets/GabrielSantinelli.jpg" alt="Foto de perfil de Gabriel Santinelli">
+            <h1 class="profile-name">Gabriel Santinelli</h1>
+            <p class="profile-description">[FUTURA DESCRIÇÃO]</p>
 
-        <img class="profile-picture" src="assets/GabrielSantinelli.jpg" alt="Foto de perfil de Gabriel Santinelli">
-        <h1 class="profile-name">Gabriel Santinelli</h1>
+            <label class="theme-switch" title="Mudar tema">
+                <input type="checkbox" id="theme-toggle-checkbox" />
+                <div class="slider">
+                    <div class="slider-handle">
+                        <svg id="bat-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M17 16c.74 -2.286 2.778 -3.762 5 -3c-.173 -2.595 .13 -5.314 -2 -7.5c-1.708 2.648 -3.358 2.557 -5 2.5v-4l-3 2l-3 -2v4c-1.642 .057 -3.292 .148 -5 -2.5c-2.13 2.186 -1.827 4.905 -2 7.5c2.222 -.762 4.26 .714 5 3c2.593 0 3.889 .952 5 4c1.111 -3.048 2.407 -4 5 -4z" /><path d="M9 8a3 3 0 0 0 6 0" /></svg>
+                        <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+                    </div>
+                </div>
+            </label>
 
-        <p class="profile-description">[FUTURA DESCRIÇÃO]</p>
+            <ul class="links-list">
+                <li><a href="https://github.com/gabsantinelli" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/gsantinelli/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="https://wa.me/5514991168839" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+            </ul>
+        </div>
 
-        <ul class="links-list">
-            <li>
-                <a href="https://github.com/gabsantinelli" target="_blank" rel="noopener noreferrer">GitHub</a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/gsantinelli/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </li>
-            <li>
-                <a href="https://wa.me/5514991168839" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-            </li>
-        </ul>
+        <footer class="footer">
+            Feito com 🤘 por Gabriel Santinelli
+        </footer>
 
     </div>
 
-    <footer class="footer">
-        Feito com 🤘 por Gabriel Santinelli
-    </footer>
-
+    <script src="script.js" defer></script>
 </body>
 </html>
